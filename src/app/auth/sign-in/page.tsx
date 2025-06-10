@@ -1,5 +1,6 @@
+import { Webheader } from "@/components/Layouts/web-header";
 import Signin from "@/components/Auth/Signin";
-import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
+//import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,56 +12,47 @@ export const metadata: Metadata = {
 export default function SignIn() {
   return (
     <>
-      <Breadcrumb pageName="Sign In" />
+     {/* Global Header */}
+      <Webheader />
 
-      <div className="rounded-[10px] bg-white shadow-1 dark:bg-gray-dark dark:shadow-card">
-        <div className="flex flex-wrap items-center">
-          <div className="w-full xl:w-1/2">
-            <div className="w-full p-4 sm:p-12.5 xl:p-15">
-              <Signin />
-            </div>
-          </div>
+      {/* Breadcrumb – optional  <Breadcrumb pageName="Sign In" />*/}
 
-          <div className="hidden w-full p-7.5 xl:block xl:w-1/2">
-            <div className="custom-gradient-1 overflow-hidden rounded-2xl px-12.5 pt-12.5 dark:!bg-dark-2 dark:bg-none">
-              <Link className="mb-10 inline-block" href="/">
-                <Image
-                  className="hidden dark:block"
-                  src={"/images/logo/logo.svg"}
-                  alt="Logo"
-                  width={176}
-                  height={32}
-                />
-                <Image
-                  className="dark:hidden"
-                  src={"/images/logo/logo-dark.svg"}
-                  alt="Logo"
-                  width={176}
-                  height={32}
-                />
-              </Link>
-              <p className="mb-3 text-xl font-medium text-dark dark:text-white">
-                Sign in to your account
-              </p>
+      <div className="rounded-xl bg-white shadow-lg max-w-6xl mx-auto my-12 overflow-hidden flex flex-col md:flex-row">
+        {/* Left: Sign-In Form */}
+        <div className="w-full md:w-1/2 p-8 md:p-12">
+          <Signin />
+        </div>
 
-              <h1 className="mb-4 text-2xl font-bold text-dark dark:text-white sm:text-heading-3">
-                Welcome Back!
-              </h1>
+        {/* Right: Welcome Panel */}
+        <div className="hidden md:flex w-full md:w-1/2 bg-[#A28367] text-white items-center justify-center p-12 relative">
+          <div className="text-center max-w-md">
+            {/* Optional Logo Placeholder */}
+            <Link href="/" className="inline-block mb-8">
+              <Image
+                src="/images/home/2_Logo-01.png"
+                alt="Logo"
+                width={150}
+                height={50}
+                className="mx-auto"
+              />
+            </Link>
 
-              <p className="w-full max-w-[375px] font-medium text-dark-4 dark:text-dark-6">
-                Please sign in to your account by completing the necessary
-                fields below
-              </p>
+            <p className="text-lg font-medium mb-2">Sign in to your account</p>
+            <h1 className="text-3xl font-bold mb-4">Welcome Back!</h1>
+            <p className="text-sm text-[#f9f6f3] leading-relaxed">
+              Please sign in to your account by completing the necessary fields
+              below. Access your dashboard, track progress, and much more.
+            </p>
 
-              <div className="mt-31">
-                <Image
-                  src={"/images/grids/grid-02.svg"}
-                  alt="Logo"
-                  width={405}
-                  height={325}
-                  className="mx-auto dark:opacity-30"
-                />
-              </div>
+            {/* Optional Illustration */}
+            <div className="mt-10">
+              <Image
+                src="/images/home/2_Logo-01.png"
+                alt="Illustration"
+                width={320}
+                height={240}
+                className="mx-auto opacity-30"
+              />
             </div>
           </div>
         </div>

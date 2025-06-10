@@ -23,10 +23,7 @@ export default function SigninWithPassword() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    // You can remove this code block
     setLoading(true);
-
     setTimeout(() => {
       setLoading(false);
     }, 1000);
@@ -73,7 +70,7 @@ export default function SigninWithPassword() {
 
         <Link
           href="/auth/forgot-password"
-          className="hover:text-primary dark:text-white dark:hover:text-primary"
+          className="text-[#A28367] hover:text-[#C7AE87]"
         >
           Forgot Password?
         </Link>
@@ -82,11 +79,11 @@ export default function SigninWithPassword() {
       <div className="mb-4.5">
         <button
           type="submit"
-          className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-primary p-4 font-medium text-white transition hover:bg-opacity-90"
+          className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-[#A28367] p-4 font-medium text-white transition hover:bg-[#C7AE87]"
         >
           Sign In
           {loading && (
-            <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-solid border-white border-t-transparent dark:border-primary dark:border-t-transparent" />
+            <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-solid border-white border-t-transparent" />
           )}
         </button>
       </div>

@@ -4,29 +4,37 @@ import SigninWithPassword from "../SigninWithPassword";
 
 export default function Signin() {
   return (
-    <>
-      <GoogleSigninButton text="Sign in" />
+    <div className="w-full max-w-md mx-auto">
+      {/* Optional: Google Sign-in (uncomment if used) */}
+      {/* <GoogleSigninButton text="Sign in" /> */}
 
-      <div className="my-6 flex items-center justify-center">
-        <span className="block h-px w-full bg-stroke dark:bg-dark-3"></span>
-        <div className="block w-full min-w-fit bg-white px-3 text-center font-medium dark:bg-gray-dark">
-          Or sign in with email
+  
+
+      {/* Divider */}
+      <div className="relative my-8 text-center">
+        <div className="absolute inset-0 flex items-center">
+          <div className="w-full border-t border-[#C7AE87]"></div>
         </div>
-        <span className="block h-px w-full bg-stroke dark:bg-dark-3"></span>
+        <div className="relative bg-white px-4 text-[#A28367] font-semibold text-sm uppercase tracking-wide">
+          Sign in with email
+        </div>
       </div>
 
-      <div>
-        <SigninWithPassword />
-      </div>
+      {/* Email Sign-in Form */}
+      <SigninWithPassword />
 
-      <div className="mt-6 text-center">
-        <p>
+      {/* Sign Up Link */}
+      <div className="mt-8 text-center">
+        <p className="text-sm text-gray-700">
           Don’t have any account?{" "}
-          <Link href="/auth/sign-up" className="text-primary">
+          <Link
+            href="/auth/sign-up"
+            className="font-medium text-[#A28367] hover:underline hover:text-[#C7AE87]"
+          >
             Sign Up
           </Link>
         </p>
       </div>
-    </>
+    </div>
   );
 }
