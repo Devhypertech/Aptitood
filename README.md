@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NextAdmin - Next.js Admin Dashboard Template and Components
 
 **NextAdmin** is a Free, open-source Next.js admin dashboard toolkit featuring 200+ UI components and templates that come with pre-built elements, components, pages, high-quality design, integrations, and much more to help you create powerful admin dashboards with ease.
@@ -84,7 +83,3 @@ All these features and more make **NextAdmin** a robust, well-rounded solution f
 
 ### Version 1.0
 - Initial Release - [May 13, 2024]
-=======
-# Aptitood
-Aptitood is custom based project of Entak Consulting.
->>>>>>> b63b15f5ffe156395573fe825fef4f4533191465
