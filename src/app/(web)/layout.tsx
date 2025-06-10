@@ -1,17 +1,17 @@
 import "@/css/satoshi.css";
 import "@/css/style.css";
 
-import { Sidebar } from "@/components/Layouts/sidebar";
+// import { Sidebar } from "@/components/Layouts/sidebar";
 
 import "flatpickr/dist/flatpickr.min.css";
 import "jsvectormap/dist/jsvectormap.css";
 
-import { Header } from "@/components/Layouts/header";
+// import { Header } from "@/components/Layouts/header";
 import type { Metadata } from "next";
 import NextTopLoader from "nextjs-toploader";
 import type { PropsWithChildren } from "react";
 import { Providers } from "../providers";
-import Web from "./page";
+// import Web from "./page";
 import { Footer } from "@/components/Layouts/footer";
 import {Webheader} from "@/components/Layouts/web-header" 
 

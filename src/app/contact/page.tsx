@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -30,7 +29,7 @@ export default function ContactPage() {
 
             {/* Services */}
             <div className="mt-4">
-              <p className="mb-2 font-medium">What's your job description?</p>
+              <p className="mb-2 font-medium">What&rsquo;s your job description?</p>
               <div className="grid grid-cols-2 gap-2 text-sm">
                 {[
                   "HR Executive", "CMO", "CEO", "CTO",
@@ -65,15 +64,15 @@ export default function ContactPage() {
           <ol className="space-y-6 text-base">
             <li>
               <span className="text-darkgold font-bold">1. Ready To Conquer Your Market?</span>
-              <p className="text-gray-700">FLorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <p className="text-gray-700">FLorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s.</p>
             </li>
             <li>
               <span className="text-darkgold font-bold">2. Launch Your Business Plan</span>
-              <p className="text-gray-700">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <p className="text-gray-700">Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s,</p>
             </li>
             <li>
               <span className="text-darkgold font-bold">3. Achieve Sustained Growth</span>
-              <p className="text-gray-700">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <p className="text-gray-700">Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s,</p>
             </li>
           </ol>
         </div>

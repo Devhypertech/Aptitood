@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export default function Home() {
+export default function Web() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>

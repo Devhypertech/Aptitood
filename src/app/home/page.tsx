@@ -10,14 +10,13 @@ import { OverviewCardsGroup } from "./_components/overview-cards";
 import { OverviewCardsSkeleton } from "./_components/overview-cards/skeleton";
 import { RegionLabels } from "./_components/region-labels";
 
+
 type PropsType = {
-  searchParams: {
-    selected_time_frame?: string ;
-  };
+  searchParams: Promise<{ selected_time_frame?: string }>;
 };
 
-export default  function Home({ searchParams }: PropsType) {
-  const selected_time_frame = searchParams?.selected_time_frame ?? "default";
+export default async function Home({ searchParams }: PropsType) {
+  const { selected_time_frame = "default" } = await searchParams;
   const extractTimeFrame = createTimeFrameExtractor(selected_time_frame);
 
   return (

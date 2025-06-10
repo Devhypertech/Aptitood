@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 import Link from 'next/link';
 import Image from "next/image";
 
@@ -16,7 +15,7 @@ export default function JobListingsPage() {
            </h1>
 
             <p className="text-lg">
-              Build the tech career that's right for you.
+              Build the tech career that&rsquo;s right for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <input
