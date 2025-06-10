@@ -46,9 +46,11 @@ export default function ContactPage() {
 
             <textarea placeholder="Tell us about your business" className="border p-3 rounded w-full mt-4 h-24" />
 
-            <p className="text-xs text-gray-600 mt-2">
-              By providing a telephone number and submitting this form you are consenting to be contacted by SMS/text message. Message & data rates may apply. You can reply STOP to opt-out.
-            </p>
+ <p className="text-xs text-gray-600 mt-2">
+  By providing a telephone number and submitting this form you are consenting to be contacted by SMS/text message. Message &amp; data rates may apply. You can reply STOP to opt&ndash;out.
+</p>
+
+
 
            <div className="p-6 text-white text-center" style={{ backgroundColor: "#A28367" }}>
               Get Consultation

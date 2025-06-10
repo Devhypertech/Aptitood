@@ -78,20 +78,20 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+{/* Testimonial Section */}
+<section className="py-20 px-4 md:px-20 bg-white grid md:grid-cols-2 gap-12 items-center">
+  <div>
+    <h2 className="text-2xl font-bold text-[#A28367] mb-4">Why customers love us</h2>
+    <p className="text-gray-600">Grow your business and get feedback from satisfied clients.</p>
+  </div>
+  <div className="bg-gray-100 p-6 rounded shadow">
+    <p className="italic">
+      &ldquo;Experience the power of comprehensive automation and AI integration. With stunning results and fast implementation, it makes scaling into incredible territories within reach.&rdquo;
+    </p>
+    <p className="mt-4 font-semibold">— A Happy Client</p>
+  </div>
+</section>
 
-      {/* Testimonial Section */}
-      <section className="py-20 px-4 md:px-20 bg-white grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h2 className="text-2xl font-bold text-[#A28367] mb-4">Why customers love us</h2>
-          <p className="text-gray-600">Grow your business and get feedback from satisfied clients.</p>
-        </div>
-        <div className="bg-gray-100 p-6 rounded shadow">
-          <p className="italic">
-            "Experience the power of comprehensive automation and AI integration. With stunning results and fast implementation, it makes scaling into incredible territories within reach."
-          </p>
-          <p className="mt-4 font-semibold">— A Happy Client</p>
-        </div>
-      </section>
     </main>
   );
 }

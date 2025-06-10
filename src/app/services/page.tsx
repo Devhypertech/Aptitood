@@ -11,9 +11,10 @@ export default function JobListingsPage() {
       <section className="bg-[#A28367] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="space-y-6 max-w-xl">
-            <h1 className="text-4xl font-bold leading-tight">
-              Tech jobs you want <br /> at companies you admire
-            </h1>
+           <h1 className="text-4xl font-bold leading-tight">
+             Tech jobs you want <span className="block">at companies you admire</span>
+           </h1>
+
             <p className="text-lg">
               Build the tech career that's right for you.
             </p>
@@ -50,7 +51,7 @@ export default function JobListingsPage() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-[#A28367] text-xl mb-6">Explore thousands of top tech employers hiring on our platform</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
-            {["OPEN AI", "MICROSOFT", "META", "GOOGLE", "NVDIA", "MORE"].map((name, idx) => (
+            {["OPEN AI", "MICROSOFT", "META", "GOOGLE", "NVDIA", "MORE  "].map((name, idx) => (
               <div
                 key={idx}
                 className="bg-[#f3eee7] h-20 flex items-center justify-center rounded-md"

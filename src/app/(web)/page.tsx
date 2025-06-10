@@ -123,7 +123,7 @@ export default function Home() {
         {/* CTA Section */}
         <section className="bg-[#A28367] text-white py-16 text-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
-          <p className="text-lg mb-8 max-w-xl mx-auto">Sign up now and explore the lorem universe of possibilities.</p>
+          <p className="text-lg mb-8 max-w-xl mx-auto">Sign up now and explore what&rsquo;s possible.</p>
           <Link href="/contact" className="bg-white text-[#A28367] px-6 py-3 rounded-md font-semibold hover:bg-[#F9F6F2]">
             Start Now
           </Link>
@@ -133,7 +133,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Join Our Community</h2>
-            <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p className="text-gray-600">Lorem Ipsum has been the industry&rsquo;s standard dummy text...</p>
           </div>
           <div className="bg-gray-100 p-16 rounded-lg shadow-sm">
             <h4 className="font-semibold mb-4">Sign Up</h4>
