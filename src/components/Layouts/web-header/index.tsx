@@ -21,7 +21,7 @@ export function Webheader (){
       Login
       </button>
       </Link>
-      <Link href="/auth/sign-up">
+      <Link href="/signup-criteria">
      <button className="rounded-md bg-[#A28367] px-4 py-1.5 text-white hover:bg-[#C7AE87] transition">
       Sign Up
      </button>

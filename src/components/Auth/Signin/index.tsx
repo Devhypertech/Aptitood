@@ -28,7 +28,7 @@ export default function Signin() {
         <p className="text-sm text-gray-700">
           Don’t have any account?{" "}
           <Link
-            href="/auth/sign-up"
+            href="/signup-criteria"
             className="font-medium text-[#A28367] hover:underline hover:text-[#C7AE87]"
           >
             Sign Up

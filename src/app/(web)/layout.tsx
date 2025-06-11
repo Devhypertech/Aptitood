@@ -28,8 +28,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
   
-        <Providers>
-          <NextTopLoader color="#A28367" showSpinner={false} />
+        // <Providers>
+          // <NextTopLoader color="#A28367" showSpinner={false} />
 
           <div className="flex min-h-screen">
             {/* <Sidebar /> */}
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
               {/* </main> */}
             </div>
           </div>
-        </Providers>
+        // </Providers>
      
   );
 }
