@@ -15,10 +15,9 @@ const fadeUpVariant = {
 
 export default function Web() {
   const [images, setImages] = useState(
-    [{title:"asdasdasdasdasd" ,src:"how-can-strong-communication-skills-transform-your-leadership-as-a-manager-01.jpg"},
-
-      {title:"ali",src:"Ingram-Micro_Header-image_iStock-2166551077.jpg"},
-      {title:"sajjad",src:"manufacturing-worker.jpg"}]
+    [{title:"Human Resource" ,src:"how-can-strong-communication-skills-transform-your-leadership-as-a-manager-01.jpg"},
+      {title:"Job Research",src:"Ingram-Micro_Header-image_iStock-2166551077.jpg"},
+      {title:"Operations",src:"manufacturing-worker.jpg"}]
   )
   return (
     <div className="min-h-screen bg-gray-50">
