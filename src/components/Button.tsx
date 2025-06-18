@@ -19,7 +19,7 @@ export default function Button({
   href,
 }: ButtonProps) {
   const baseClasses =
-    "px-6 py-3 min-w-[200px] rounded font-medium text-white bg-[#A28367] hover:bg-[#C7AE87] transition duration-300";
+    "px-6 py-3 min-w-[200px] rounded font-medium text-white transition duration-300";
 
   if (href) {
     return (
