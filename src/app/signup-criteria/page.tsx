@@ -16,13 +16,13 @@ export default function SignupCriteriaPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl w-full items-center">
           {/* Left Column */}
           <div>
-            <h2 className="text-2xl font-semibold mb-6">Sign up</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-[#2563EB]">Join Us!</h2>
             <div className="flex gap-4 mb-4">
-              <Button href="/auth/sign-up" className="bg-[#A28367] hover:bg-[#C7AE87] text-white min-w-[160px]">
-                as Company
+              <Button href="/auth/sign-up" className="bg-[#1B3173] hover:bg-[#2563EB] text-white min-w-[160px]">
+                As Company
               </Button>
-              <Button href="/auth/sign-up" className="bg-[#A28367] hover:bg-[#C7AE87] text-white min-w-[160px]">
-                as Candidate
+              <Button href="/auth/sign-up" className="bg-[#1B3173] hover:bg-[#2563EB] text-white min-w-[160px]">
+                As Candidate
               </Button>
             </div>
             <p className="text-sm text-gray-600 max-w-sm">

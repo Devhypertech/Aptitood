@@ -70,16 +70,16 @@ export default function SigninWithPassword() {
 
         <Link
           href="/auth/forgot-password"
-          className="text-[#A28367] hover:text-[#C7AE87]"
+          className="text-[#2563EB] hover:text-[#1B3173]"
         >
           Forgot Password?
         </Link>
-      </div>
+      </div>  
 
       <div className="mb-4.5">
         <button
           type="submit"
-          className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-[#A28367] p-4 font-medium text-white transition hover:bg-[#C7AE87]"
+          className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-[#1B3173] p-4 font-medium text-white transition hover:bg-[#2563EB]"
         >
           Sign In
           {loading && (

@@ -18,7 +18,7 @@ export default function JobListingsPage() {
 
       {/* Hero Section */}
       <motion.section
-        className="bg-[#A28367] text-white py-20"
+        className="bg-[#2563EB] text-white py-20"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -37,7 +37,7 @@ export default function JobListingsPage() {
                 className="px-4 py-2 rounded text-black w-full"
               />
               <div>
-                <Button>Search Jobs</Button>
+                <Button className="bg-[#1B3173]">Search Jobs</Button>
               </div>
             </div>
             <Link href="#">
@@ -67,10 +67,10 @@ export default function JobListingsPage() {
         viewport={{ once: true }}
       >
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-[#A28367] text-xl mb-6">Explore thousands of top tech employers hiring on our platform</h2>
+          <h2 className="text-[#2563EB] text-xl mb-6">Explore thousands of top tech employers hiring on our platform</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
             {["OPEN AI", "MICROSOFT", "META", "GOOGLE", "NVDIA", "MORE"].map((name, idx) => (
-              <div key={idx} className="bg-[#f3eee7] h-20 flex items-center justify-center rounded-md">
+              <div key={idx} className="bg-[#EAF3FE] h-20 flex items-center justify-center rounded-md">
                 {name}
               </div>
             ))}
@@ -80,7 +80,7 @@ export default function JobListingsPage() {
 
       {/* Stats Section */}
       <motion.section
-        className="py-16 bg-[#A28367] text-white"
+        className="py-16 bg-[#1B3173] text-white"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -112,11 +112,11 @@ export default function JobListingsPage() {
       >
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
-            <h3 className="text-2xl font-bold mb-2">Find the right tech job, on your terms</h3>
+            <h3 className="text-2xl font-bold mb-2 text-[#1B3173]">Find the right tech job, on your terms</h3>
             <p className="text-gray-600 mb-6">
               Dice gives you tools to instantly find and filter through jobs that match your skills, experience, and career goals — so you can choose your next role with confidence.
             </p>
-            <button className="bg-[#C7AE87] text-white px-5 py-2 rounded hover:bg-[#b6976e]">Create Your Profile</button>
+            <button className="bg-[#2563EB] text-white px-5 py-2 rounded hover:bg-[#1B3173]">Create Your Profile</button>
           </div>
           <div className="bg-gray-100 aspect-video rounded-lg overflow-hidden">
             <Image
@@ -132,14 +132,14 @@ export default function JobListingsPage() {
 
       {/* Resource Grid Section */}
       <motion.section
-        className="py-16 bg-[#f8f6f3]"
+        className="py-16 bg-[#F3F9FF]"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
         <div className="max-w-7xl mx-auto px-4">
-          <h3 className="text-2xl font-bold text-[#A28367] mb-6">Tech Career Resources: Advice, tips and more</h3>
+          <h3 className="text-2xl font-bold text-[#1B3173] mb-6">Tech Career Resources: Advice, tips and more</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {images.map((item, index) => (
               <AnimatedCard
@@ -174,18 +174,17 @@ export default function JobListingsPage() {
             />
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-[#A28367]">Find and hire top tech talent today</h3>
+            <h3 className="text-2xl font-bold mb-4 text-[#2563EB]">Find and hire top tech talent today</h3>
             <p className="text-gray-600 mb-6">
               With access to millions of tech professionals and the AI matching tools to connect the best ones, our hiring partners save time and hire smarter.
             </p>
             <div className="flex gap-4">
-              <button className="bg-[#C7AE87] text-white px-6 py-2 rounded hover:bg-[#b6976e]">Learn More</button>
-              <button className="bg-white border border-[#C7AE87] text-[#A28367] px-6 py-2 rounded hover:bg-[#f3ede6]">Post a Job</button>
+              <button className="bg-[#2563EB] text-white px-6 py-2 rounded hover:bg-[#1B3173]">Learn More</button>
+              <button className="bg-white border border-[#2563EB] text-[#1B3173] px-6 py-2 rounded hover:bg-[#EAF3FE]">Post a Job</button>
             </div>
           </div>
         </div>
       </motion.section>
-
     </div>
   );
 }

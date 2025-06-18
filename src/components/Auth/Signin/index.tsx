@@ -13,9 +13,9 @@ export default function Signin() {
       {/* Divider */}
       <div className="relative my-8 text-center">
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-[#C7AE87]"></div>
+          <div className="w-full border-t border-[#1B3173]"></div>
         </div>
-        <div className="relative bg-white px-4 text-[#A28367] font-semibold text-sm uppercase tracking-wide">
+        <div className="relative bg-white px-4 text-[#1B3173] font-semibold text-sm uppercase tracking-wide">
           Sign in with email
         </div>
       </div>
@@ -28,8 +28,8 @@ export default function Signin() {
         <p className="text-sm text-gray-700">
           Don’t have any account?{" "}
           <Link
-            href="/signup-criteria"
-            className="font-medium text-[#A28367] hover:underline hover:text-[#C7AE87]"
+            href="/signup-criteria  "
+            className="font-medium text-[#2563EB] hover:underline hover:text-[#1B3173]"
           >
             Sign Up
           </Link>

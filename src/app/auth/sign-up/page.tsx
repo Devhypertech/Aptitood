@@ -27,14 +27,14 @@ export default function SignUpPage() {
 
       <main className="bg-white min-h-screen flex flex-col items-center justify-center py-16 px-4">
         <div className="text-center mb-10 max-w-2xl">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-3">Ready to take a free trial?</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-3 text-[#1B3173]">Ready to take a free trial?</h2>
           <p className="text-gray-600 text-base md:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
           </p>
         </div>
 
         <div className="w-full max-w-md border border-gray-300 rounded p-8 bg-white shadow-md">
-          <h3 className="text-lg font-semibold mb-6">Sign up for a free account</h3>
+          <h3 className="text-lg font-semibold mb-6 text-[#2563EB]">Sign up for a free account</h3>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex gap-4">
@@ -91,13 +91,13 @@ export default function SignUpPage() {
             <div className="flex gap-4 mt-4">
               <button
                 type="submit"
-                className="flex-1 bg-[#A28367] text-white py-2 rounded hover:bg-[#C7AE87] transition"
+                className="flex-1 bg-[#1B3173] text-white py-2 rounded hover:bg-[#2563EB] transition"
               >
                 Register
               </button>
               <Link
                 href="/auth/sign-in"
-                className="flex-1 bg-[#A28367] text-white py-2 rounded text-center hover:bg-[#C7AE87] transition"
+                className="flex-1 bg-[#2563EB] text-white py-2 rounded text-center hover:bg-[#1B3173] transition"
               >
                 Login
               </Link>

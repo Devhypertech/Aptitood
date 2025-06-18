@@ -315,6 +315,11 @@ const config: Config = {
       keyframes: {
         linspin: {
           "100%": { transform: "rotate(360deg)" },
+          
+        },
+        marquee: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
         },
         easespin: {
           "12.5%": { transform: "rotate(135deg)" },
@@ -374,6 +379,7 @@ const config: Config = {
         line1: "line 10s infinite linear",
         line2: "line-revert 8s infinite linear",
         line3: "line 7s infinite linear",
+        marquee: 'marquee 30s linear infinite',
       },
     },
   },
