@@ -28,7 +28,7 @@ export function Header() {
             src={"/images/logo/logo-icon.svg"}
             width={32}
             height={32}
-            alt=""
+            alt="logo"
             role="presentation"
           />
         </Link>

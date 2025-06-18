@@ -1,9 +1,9 @@
 "use client";
 
 import { ReactNode } from "react";
-import { Sidebar } from "@/components/layouts/sidebar";
-import { Header } from "@/components/layouts/header";
-import { SidebarProvider } from "@/components/layouts/sidebar/sidebar-context";
+import { Sidebar } from "@/components/Layouts/sidebar";
+import { Header } from "@/components/Layouts/header";
+import { SidebarProvider } from "@/components/Layouts/sidebar/sidebar-context";
 
 interface DashboardLayoutProps {
   children: ReactNode;

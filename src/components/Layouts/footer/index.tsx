@@ -76,7 +76,7 @@ export function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <div className="text-center text-sm text-gray-500 mt-12 border-t pt-6 text-[#18275A]">
+      <div className="text-center text-sm mt-12 border-t pt-6 text-[#18275A]">
         &copy; 2025 Aptitood. All Rights Reserved.
       </div>
     </footer>

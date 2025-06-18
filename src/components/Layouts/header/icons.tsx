@@ -4,7 +4,7 @@ export function MenuIcon(props: IconProps) {
   return (
     <svg
       width="25"
-      height="24"
+      height="[24]"
       viewBox="0 0 25 24"
       fill="currentColor"
       {...props}

@@ -206,7 +206,7 @@ const [isSkillOpen, setSkillOpen] = useState(false);
               <div className={`grid gap-4 ${getGridCols(Math.min(4, portfolioFiles.length))}`}>
                 {portfolioFiles.slice(0, 4).map((file, index) => (
                   <div key={index} className="relative group overflow-hidden rounded h-24">
-                    <img
+                    <Image
                       src={URL.createObjectURL(file)}
                       alt={`portfolio-${index}`}
                       className="object-cover w-full h-full rounded transition duration-300 group-hover:opacity-30"
@@ -226,7 +226,7 @@ const [isSkillOpen, setSkillOpen] = useState(false);
                 <div className="grid grid-cols-4 gap-4 mt-4">
                   {portfolioFiles.slice(4).map((file, index) => (
                     <div key={index + 4} className="relative group overflow-hidden rounded h-24">
-                      <img
+                      <Image
                         src={URL.createObjectURL(file)}
                         alt={`portfolio-${index + 4}`}
                         className="object-cover w-full h-full rounded transition duration-300 group-hover:opacity-30"
@@ -253,7 +253,7 @@ const [isSkillOpen, setSkillOpen] = useState(false);
               <button onClick={() => setSelectedImage(null)} className="absolute top-2 right-2 text-white text-3xl hover:text-red-400">
                 <X />
               </button>
-              <img
+              <Image
                 src={selectedImage}
                 alt="Full Preview"
                 className="max-h-screen max-w-full rounded shadow-lg"
@@ -440,8 +440,6 @@ const [isSkillOpen, setSkillOpen] = useState(false);
     Save
   </Button>
 </Modal>
-
-
 
 <Modal isOpen={isEducationOpen} onClose={() => setEducationOpen(false)} title="Add Education">
   <input

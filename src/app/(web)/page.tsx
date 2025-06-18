@@ -1,7 +1,7 @@
 "use client";
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/image";
 import { motion } from 'framer-motion';
 import Button from '../../components/Button';
 
@@ -30,7 +30,6 @@ export default function Web() {
         width={1200}
         height={1200}
         className="object-contain w-auto absolute bottom-0 top-2 left-0"
-        
       />
     </div>
 
@@ -67,8 +66,6 @@ export default function Web() {
     />
   </div>
 </section>
-
-
 
       {/* Features Section */}
       <motion.section
@@ -181,10 +178,12 @@ export default function Web() {
         <div key={i} className="relative flex flex-col items-center text-center max-w-[160px]">
           {/* GIF inside colored circle */}
           <div className="w-24 h-24 rounded-full bg-blue-600 flex items-center justify-center shadow-lg z-10 relative overflow-hidden">
-            <img
+            <Image
               src={`/images/home/${step.gif}`}
               alt={`Step ${i + 1}`}
               className="w-12 h-12 object-contain rounded-[300px]"
+              width={48}
+              height={48}
             />
           </div>
 
@@ -243,8 +242,7 @@ export default function Web() {
       Curious how do we work?
     </h2>
     <p className="text-gray-500 mb-12 max-w-xl mx-auto">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla fringilla est,
-      volutpat, eu amet morbi tincidunt. Mattis tempu.
+      Here is the paraghraph that describes how we work. We are a team of dedicated professionals who strive to provide the best services to our clients. Our process is simple yet effective, ensuring that we meet your needs efficiently and effectively.
     </p>
     {/* Video Container with Proper Height */}
     <div className="rounded-xl overflow-hidden shadow-xl mx-auto max-w-4xl w-full h-[400px] md:h-[480px]">
@@ -424,7 +422,7 @@ export default function Web() {
     {/* CTA Headline */}
     <h2 className="text-3xl md:text-4xl font-extrabold mb-4">Ready to Unlock Your Future?</h2>
     <p className="text-lg mb-10 max-w-xl mx-auto">
-      Join thousands building career records that stand out. Whether you're a candidate or a company — we're ready when you are.
+      Join thousands building career records that stand out. Whether a candidate or a company — we are ready when you are.
     </p>
 
     {/* Signup Buttons */}
